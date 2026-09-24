@@ -1,9 +1,6 @@
-# Database-Converter
-Python-based CSV to binary database converter for ESP32, featuring FNV-1a hashing, dictionary compression, sorting, CRC32 validation, and optimized Binary Search support.
-
 # QR Database Converter
 
-**QR Database Converter** is a Python-based tool for converting QR/bottle database files from **CSV format** into optimized **binary (`.bin`) files** designed for use with an **ESP32**.
+**QR Database Converter** is a Python-based tool for converting QR/bottle database files from **CSV format** into optimized **binary (`.bin`) files** designed for use with an **ESP32**. Python-based CSV to binary database converter for ESP32, featuring FNV-1a hashing, dictionary compression, sorting, CRC32 validation, and optimized Binary Search support.
 
 The converter processes and validates the input data, generates a **64-bit FNV-1a hash** from each `bottle_no`, creates compact dictionaries for repeated values, sorts records by `bottle_hash`, and generates binary database files that can be efficiently searched by the ESP32 using **Binary Search**.
 
